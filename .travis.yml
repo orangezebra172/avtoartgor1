@@ -1,15 +1,7 @@
-language: node_js
-node_js:
-    - "20.0"
-test:
-	npm test
-branches:
-  only:
-    - main
+before_deploy: "echo 'ready?'"
 deploy:
   provider: firebase
   token:
-    secure: "1//0cWS0s5wM-b_NCgYIARAAGAwSNwF-L9IraCkKfr91cGvJvthndzlBVvE1v9keBZYQqRSW5kt2RjqWP5jGoCOnku8TfEj0ILzW27E"
-  project: "redi-207ac"
-  on:
-    branch: main
+    secure: 1//0cWS0s5wM-b_NCgYIARAAGAwSNwF-L9IraCkKfr91cGvJvthndzlBVvE1v9keBZYQqRSW5kt2RjqWP5jGoCOnku8TfEj0ILzW27E
+  project: "myapp-staging"
+  message: "redi-207ac"
