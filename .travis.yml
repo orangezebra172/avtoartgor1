@@ -5,7 +5,7 @@ node_js:
 branches:
   only:
     - main
-    test:
+test:
 	npm test
 deploy:
   provider: firebase
