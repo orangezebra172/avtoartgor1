@@ -1,6 +1,7 @@
 
 language: node_js
-node_js: 20.0
+node_js:
+    - "20.0"
 test:
 	npm test
 
