@@ -5,8 +5,6 @@ node_js:
 branches:
   only:
     - main
-test:
-	npm test
 deploy:
   provider: firebase
   token:
@@ -14,3 +12,5 @@ deploy:
   project: "redi-207ac"
   on:
     branch: main
+test:
+	npm test
