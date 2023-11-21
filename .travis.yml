@@ -1,7 +1,11 @@
 before_deploy: "echo 'ready?'"
+branches:
+  only:
+    - main
 deploy:
   provider: firebase
   token:
-    secure: 1//0cWS0s5wM-b_NCgYIARAAGAwSNwF-L9IraCkKfr91cGvJvthndzlBVvE1v9keBZYQqRSW5kt2RjqWP5jGoCOnku8TfEj0ILzW27E
-  project: "myapp-staging"
-  message: "redi-207ac"
+    secure: "1//0cWS0s5wM-b_NCgYIARAAGAwSNwF-L9IraCkKfr91cGvJvthndzlBVvE1v9keBZYQqRSW5kt2RjqWP5jGoCOnku8TfEj0ILzW27E"
+  project: "redi-207ac"
+  on:
+    branch: main
