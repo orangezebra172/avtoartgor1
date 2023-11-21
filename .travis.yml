@@ -1,7 +1,15 @@
-before_deploy: "echo 'ready?'"
+language: node_js
+node_js:
+  - "node"
+
+branches:
+  only:
+    - main
+
 deploy:
   provider: firebase
   token:
-    secure: $FIREBASE_TOKEN
+    secure: "1//0cWS0s5wM-b_NCgYIARAAGAwSNwF-L9IraCkKfr91cGvJvthndzlBVvE1v9keBZYQqRSW5kt2RjqWP5jGoCOnku8TfEj0ILzW27E"
   project: "redi-207ac"
-  message: "Deploying!!!"
+  on:
+    branch: main
