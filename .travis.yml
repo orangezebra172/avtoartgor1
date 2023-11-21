@@ -2,7 +2,8 @@ language: node_js
 node_js:
     - "7.0"
 
-make -f Makefile.test test
+test: <dependencies>
+	<command>
 branches:
   only:
     - main
