@@ -18,6 +18,7 @@ deploy:
   deploy:
   provider: github
   token: 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
+  edge: true
   skip_cleanup: true
   on:
     branch: main
