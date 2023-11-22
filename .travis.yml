@@ -20,4 +20,4 @@ deploy:
   token: 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
   skip_cleanup: true
   on:
-    branch: main  # Or any other branch you'd like to deploy from.
+    branch: main
