@@ -15,12 +15,9 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-    eploy:
-  provider: gighub
-  api_key: 
-    secure: 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
-  app: your-app-name
+     deploy:
+  provider: github
+  api_key: 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
+  skip_cleanup: true
   on:
-    repo: your-github-username/your-repo
-  on:
-    branch: main
+    branch: main # or your preferred branch
