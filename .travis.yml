@@ -16,8 +16,7 @@ deploy:
   on:
     tags: true
      deploy:
-  provider: github
-  api_key: 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
-  skip_cleanup: true
+  provider: gighub
+    secure: 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
   on:
     branch: main # or your preferred branch
