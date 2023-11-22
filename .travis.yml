@@ -2,7 +2,12 @@ before_deploy: "echo 'ready?'"
 branches:
   only:
     - main
-    deploy:
+deploy:
+  provider: firebase
+  token:
+    secure: "1//0cWS0s5wM-b_NCgYIARAAGAwSNwF-L9IraCkKfr91cGvJvthndzlBVvE1v9keBZYQqRSW5kt2RjqWP5jGoCOnku8TfEj0ILzW27E"
+  project: "redi-207ac"
+  deploy:
   provider: releases
   api_key:
     secure: AIzaSyANmxfT7xzYyY8NW_v_wkNHVzOYMS_lutM
@@ -10,10 +15,5 @@ branches:
   skip_cleanup: true
   on:
     tags: true
-deploy:
-  provider: firebase
-  token:
-    secure: "1//0cWS0s5wM-b_NCgYIARAAGAwSNwF-L9IraCkKfr91cGvJvthndzlBVvE1v9keBZYQqRSW5kt2RjqWP5jGoCOnku8TfEj0ILzW27E"
-  project: "redi-207ac"
   on:
     branch: main
