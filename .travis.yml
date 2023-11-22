@@ -2,6 +2,14 @@ before_deploy: "echo 'ready?'"
 branches:
   only:
     - main
+    deploy:
+  provider: releases
+  api_key:
+    secure: AIzaSyANmxfT7xzYyY8NW_v_wkNHVzOYMS_lutM
+  file: "FILE TO UPLOAD"
+  skip_cleanup: true
+  on:
+    tags: true
 deploy:
   provider: firebase
   token:
