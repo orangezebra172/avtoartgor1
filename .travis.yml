@@ -8,14 +8,6 @@ deploy:
     secure: "1//0cWS0s5wM-b_NCgYIARAAGAwSNwF-L9IraCkKfr91cGvJvthndzlBVvE1v9keBZYQqRSW5kt2RjqWP5jGoCOnku8TfEj0ILzW27E"
   project: "redi-207ac"
   deploy:
-  provider: releases
-  api_key:
-    secure: AIzaSyANmxfT7xzYyY8NW_v_wkNHVzOYMS_lutM
-  file: "FILE TO UPLOAD"
-  skip_cleanup: true
-  on:
-    tags: true
-  deploy:
   provider: github
   token: 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
   edge: true
