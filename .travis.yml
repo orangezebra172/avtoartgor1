@@ -15,9 +15,8 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
- deploy:
-  provider: github
-  token: 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
-  skip_cleanup: true
+    env:
+  global:
+    secure: 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
   on:
     branch: main
