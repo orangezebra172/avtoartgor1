@@ -7,10 +7,5 @@ deploy:
   token:
     secure: "1//0cWS0s5wM-b_NCgYIARAAGAwSNwF-L9IraCkKfr91cGvJvthndzlBVvE1v9keBZYQqRSW5kt2RjqWP5jGoCOnku8TfEj0ILzW27E"
   project: "redi-207ac"
-  deploy:
-  provider: github
-  token: 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
-  edge: true
-  skip_cleanup: true
   on:
     branch: main
