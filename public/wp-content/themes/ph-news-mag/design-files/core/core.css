@@ -1,0 +1,63 @@
+:root {
+  --phnewsmag-primary: #fe5825;
+  --phnewsmag-primary-text: #f9ffe7;
+  --phnewsmag-background-main: #ffffff;
+  --phnewsmag-background-darker: #eaeaea;
+  --phnewsmag-secondary: #fd4f18;
+  --phnewsmag-secondary-dark: #33202a;
+  --phnewsmag-secondary-text: #FFF;
+  --phnewsmag-text-dark: #111;
+  --phnewsmag-text: #555;
+  --phnewsmag-text-light: #777;
+  --phnewsmag-header-background: #fff;
+  --phnewsmag-header-lighter: #222;
+  --phnewsmag-header-text: #FFFFFF;
+  --phnewsmag-menu-text: #ff582e;
+  --phnewsmag-title-text: #fe5825;
+  --phnewsmag-top-bar-text: #777777;
+  --phnewsmag-top-bar-background: #000;
+  --phnewsmag-mobile-header-background: #FFFFFF;
+  --phnewsmag-mobile-header-text: #222222;
+}
+body {
+  background: var(--phnewsmag-background-main);
+  word-wrap: break-word;
+}
+a {
+  color: var(--phnewsmag-secondary);
+  -webkit-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+}
+a:hover,
+a:visited {
+  color: var(--phnewsmag-secondary-dark);
+}
+a:focus {
+  outline: dotted 1px black;
+}
+::-moz-selection {
+  background: var(--phnewsmag-primary);
+  color: var(--phnewsmag-primary-text);
+}
+::selection {
+  background: var(--phnewsmag-primary);
+  color: var(--phnewsmag-primary-text);
+}
+.phnewsmag-pagination {
+  text-align: center;
+  margin: 14px 0px;
+}
+.phnewsmag-pagination .page-numbers {
+  color: var(--phnewsmag-text);
+  margin-right: 3px;
+  margin-left: 3px;
+  border: solid 1px var(--phnewsmag-text-light);
+  padding: 2px 10px;
+  text-decoration: none;
+}
+.phnewsmag-pagination .page-numbers.current {
+  background: var(--phnewsmag-background-darker);
+}
+.phnewsmag-pagination a.page-numbers:hover {
+  background: var(--phnewsmag-background-darker);
+}

@@ -1,0 +1,22 @@
+:root {
+  --phnewsmag-primary: #f2095b;
+  --phnewsmag-primary-text: #f9ffe7;
+  --phnewsmag-background-main: #ffffff;
+  --phnewsmag-background-darker: #eeeeee;
+  --phnewsmag-secondary: #3d405b;
+  --phnewsmag-secondary-dark: #33202a;
+  --phnewsmag-secondary-text: #FFF;
+  --phnewsmag-text-dark: #111;
+  --phnewsmag-text: #555;
+  --phnewsmag-text-light: #777;
+  --phnewsmag-header-background: #000000;
+  --phnewsmag-header-lighter: #222;
+  --phnewsmag-header-text: #FFFFFF;
+  --phnewsmag-menu-text: #e70051;
+  --phnewsmag-title-text: #b70241;
+  --phnewsmag-top-bar-text: #777777;
+  --phnewsmag-top-bar-background: #ff1f6f;
+  --phnewsmag-mobile-header-background: #FFFFFF;
+  --phnewsmag-mobile-header-text: #222222;
+  --phnewsmag-buy-now-btn: #39FFC0;
+}

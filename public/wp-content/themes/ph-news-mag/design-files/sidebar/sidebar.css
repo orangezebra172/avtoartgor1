@@ -1,0 +1,79 @@
+:root {
+  --phnewsmag-primary: #fe5825;
+  --phnewsmag-primary-text: #f9ffe7;
+  --phnewsmag-background-main: #ffffff;
+  --phnewsmag-background-darker: #eaeaea;
+  --phnewsmag-secondary: #fd4f18;
+  --phnewsmag-secondary-dark: #33202a;
+  --phnewsmag-secondary-text: #FFF;
+  --phnewsmag-text-dark: #111;
+  --phnewsmag-text: #555;
+  --phnewsmag-text-light: #777;
+  --phnewsmag-header-background: #fff;
+  --phnewsmag-header-lighter: #222;
+  --phnewsmag-header-text: #FFFFFF;
+  --phnewsmag-menu-text: #ff582e;
+  --phnewsmag-title-text: #fe5825;
+  --phnewsmag-top-bar-text: #777777;
+  --phnewsmag-top-bar-background: #000;
+  --phnewsmag-mobile-header-background: #FFFFFF;
+  --phnewsmag-mobile-header-text: #222222;
+}
+#secondary {
+  border-left: var(--phnewsmag-background-darker) solid 1px;
+  padding: 15px;
+}
+@media screen and (max-width: 767px) {
+  #secondary {
+    border: none;
+  }
+}
+button {
+  background-color: var(--phnewsmag-primary);
+  color: var(--phnewsmag-primary-text);
+  border: none;
+  border-radius: 4px;
+}
+.widget {
+  padding: 15px;
+  -webkit-box-shadow: var(--phnewsmag-background-darker) 0px 8px 24px;
+          box-shadow: var(--phnewsmag-background-darker) 0px 8px 24px;
+}
+.widget h2,
+.widget h3,
+.widget h4,
+.widget h1,
+.widget .widget-title {
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px var(--phnewsmag-background-darker);
+}
+.widget ul,
+.widget ol {
+  margin-left: 3px;
+  padding-left: 0px;
+  list-style: none;
+}
+.widget li {
+  padding: 8px 0;
+  border-bottom: solid 1px var(--phnewsmag-background-darker);
+}
+.widget li:last-child {
+  border-bottom: none;
+}
+.widget li a {
+  color: var(--phnewsmag-text-light);
+  text-decoration: none;
+}
+.widget li a:hover {
+  color: var(--phnewsmag-secondary-dark);
+}
+.widget .widget_block h1:only-child,
+.widget .widget_block h2:only-child,
+.widget .widget_block h3:only-child,
+.widget .widget_block h4:only-child,
+.widget .widget_block h5:only-child,
+.widget .widget_block h6:only-child {
+  margin-bottom: -40px;
+}

@@ -1,0 +1,87 @@
+:root {
+  --phnewsmag-primary: #f2095b;
+  --phnewsmag-primary-text: #fbfbfb;
+  --phnewsmag-background-main: rgba(149, 157, 165, 0.2);
+  --phnewsmag-background-darker: #eeeeee;
+  --phnewsmag-secondary: #3d405b;
+  --phnewsmag-secondary-dark: #33202a;
+  --phnewsmag-secondary-text: #FFF;
+  --phnewsmag-text-dark: #111;
+  --phnewsmag-text: #555;
+  --phnewsmag-text-light: #777;
+  --phnewsmag-header-background: #000000;
+  --phnewsmag-header-lighter: #222;
+  --phnewsmag-header-text: #FFFFFF;
+  --phnewsmag-menu-text: #e70051;
+  --phnewsmag-title-text: #b70241;
+  --phnewsmag-top-bar-text: #777777;
+  --phnewsmag-top-bar-background: #ff1f6f;
+  --phnewsmag-mobile-header-background: #FFFFFF;
+  --phnewsmag-mobile-header-text: #222222;
+  --phnewsmag-buy-now-btn: #39FFC0;
+}
+.primary-font {
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+}
+.secondary-font {
+  font-family: "Quicksand", Times, "Times New Roman", serif;
+}
+body {
+  background: var(--phnewsmag-background-main);
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Quicksand", Times, "Times New Roman", serif;
+}
+a {
+  color: var(--phnewsmag-secondary);
+  -webkit-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+}
+a:hover,
+a:visited {
+  color: var(--phnewsmag-secondary-dark);
+}
+a:focus {
+  outline: dotted 1px black;
+}
+::-moz-selection {
+  background: var(--phnewsmag-primary);
+  color: var(--phnewsmag-primary-text);
+}
+::selection {
+  background: var(--phnewsmag-primary);
+  color: var(--phnewsmag-primary-text);
+}
+.phnewsmag-pagination {
+  text-align: center;
+}
+.phnewsmag-pagination .page-numbers {
+  color: var(--phnewsmag-text);
+  margin-right: 3px;
+  margin-left: 3px;
+  border: solid 1px var(--phnewsmag-text-light);
+  padding: 2px 10px;
+  text-decoration: none;
+}
+.phnewsmag-pagination .page-numbers.current {
+  background: var(--phnewsmag-background-darker);
+}
+.phnewsmag-pagination a.page-numbers:hover {
+  background: var(--phnewsmag-background-darker);
+}
+.buy-now-btn-bg {
+  background-color: var(--phnewsmag-buy-now-btn);
+}

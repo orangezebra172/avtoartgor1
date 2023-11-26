@@ -1,1 +1,0 @@
-travis encrypt GH_TOKEN=<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> --add
