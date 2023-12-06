@@ -1,10 +1,8 @@
 {
   "projects": {
     "default": "optwt2"
-  }
-}
-{
-  "projects": {
+"projects": {
     "default": "redi-207ac"
      }
+  }
 }
