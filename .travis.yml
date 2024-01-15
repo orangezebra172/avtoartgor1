@@ -5,6 +5,6 @@ branches:
 deploy:
   provider: firebase
   token:
-    secure: "1//0csXtzWlELa-VCgYIARAAGAwSNwF-L9Irjr9aIpo7-3M5ikA5CdraL2jWB5-TXozkn8V4jKr0n1e89pnVeTDjJJ1VkoDPmJsDmqg"
+    secure: "1//0ccfqL4j-WJADCgYIARAAGAwSNwF-L9IrB0MiXDS0ad1yPbQKUfXXEngjRHZhaCAIq5_6biv2qiZ6qDbAqN9bEzuYGpeZUHmYJE4"
   on:
     branch: main
